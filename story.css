@@ -1,0 +1,84 @@
+#sec1 {
+        border: 2px solid black;
+        border-radius: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(94, 87, 87);
+        
+    }
+
+    #header {
+
+        background-color: rgb(255, 251, 251);
+        border-radius: 40px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        border: 2px solid rgb(8, 8, 2);
+        text-align: center;
+        display: block;
+        margin-left: 300px;
+        margin-right: 300px;
+
+    }
+
+    #input {
+        border: 2px solid black;
+        border-radius: 30px;
+        background-color: rgba(38, 248, 56, 0.761);
+        margin-left: 300px;
+        margin-right: 300px;
+        padding: 30px;
+
+    }
+
+    .label {
+        font-size: 20px;
+
+    }
+
+    ::placeholder {
+        text-align: center;
+    }
+
+    #but {
+        border: none;
+        color: aqua;
+        background-color: brown;
+        font-size: 15px;
+        width: 30%;
+        margin-top: 50px;
+        border-radius: 30px;
+        padding: 5px;
+    }
+
+    #but:hover {
+        background-color: rgb(255, 0, 119);
+        border: 2px solid black;
+    }
+
+
+    .lineinput {
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid #fff;
+        outline: none;
+        width: 50%;
+        height: 20px;
+
+    }
+
+    #yes, #no{
+        width: 10%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .congo{
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }

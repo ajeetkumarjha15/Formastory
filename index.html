@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Story</title>
+    <link rel = "stylesheet" href = "story.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="story.js"></script> 
+
+</head>
+
+<body>
+
+    <section id="sec1">
+
+        <section id="header">
+            <img src="https://thumbs.dreamstime.com/b/book-story-logo-design-storytelling-vector-open-bonfire-logotype-179886769.jpg"
+                alt="Tell Your story" width="400px" height="300px">
+        </section>
+
+
+        <section id="input">
+            <form action="/ajstory.html" method="GET" style="text-align: center;">
+
+                <label for="animal1" class="label">Write Your First Animal:</label><br><br>
+                <input type="text" class="lineinput" name="animal1" placeholder="Write your first chracter-"
+                    required><br><br>
+
+                <label for="animal2" class="label">Write Your Second Animal:</label><br><br>
+                <input type="text" class="lineinput" name="animal2" placeholder="Write your second chracter-"
+                    required><br><br>
+
+                <label for="animal3" class="label">Write One More Animal:</label><br><br>
+                <input type="text" class="lineinput" name="animal3" placeholder="Write your last chracter-"
+                    required><br><br>
+
+
+                <label for="adjactive" class="label">Write English Adjactive (past tense):</label><br><br>
+                <input type="text" class="lineinput" name="adjactive" placeholder="Write adjective here-"
+                    required><br><br>
+
+                <label for="verb" class="label">Write Verb (end in-ing):</label><br><br>
+                <input type="text" class="lineinput" name="adjactive" placeholder="Write verb here-" required><br><br>
+
+                <label for="num" class="label">Number:</label><br><br>
+                <input type="number" class="lineinput" name="num" placeholder="Write number here-" required><br><br>
+
+                <label for="yesorno" class="label">Yes or No:</label><br><br>
+                <input type="radio" id="yes" name="answer" value="yes" required>
+                <label>Yes</label>
+                <input type="radio" id="no" name="answer" value="no" required>
+                <label>No</label><br><br>
+
+                <label for="rspeed" class="label">Relative speed:</label><br><br>
+                <select class="lineinput" name="rspeed" required>
+                    <option value="faster">Faster</option>
+                    <option value="quicker">Quicker</option>
+                    <option value="speedier">Speedier</option>
+                </select><br><br>
+
+                <label for="quote" class="label">Motivational Quote:</label><br><br>
+                <textarea class="lineinput" name="quote" placeholder="Quote here-" required></textarea>
+                <br><br>
+
+            </form>
+
+        </section>
+
+        <div style="text-align: center;">
+            <a href="storynull.html"><input id="but" type="submit" value="Form Your Story" onclick="myFunction()"></a>
+        </div>
+
+        <p class="congo"><b>Congratulations Your Story is Completed, Read Now</b></p>
+
+        <h4 class="footer">&copy <span style="color:orange;">All rights reserved with</span> DESIGN PVT. LTD.</h4>
+
+    </section>
+</body>
+
+</html>
